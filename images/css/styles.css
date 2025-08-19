@@ -1,5 +1,157 @@
 .body {
-    font-family: ;
-    color: ;
+    font-family: "Roboto", "Raleway", sans-serif;
+    color: #2e2f42; 
+    color:#434455 ;
+    background: #fff;
+    
+    
+}
+ .wrapper{
     background-color: ;
+ }
+ /* Logo*/
+.page-nav .web-studio-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #4d5ae5; ;
+}
+
+.page-nav .logo-studio{
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #2e2f42;
+        }
+  .page-nav .link{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+
+/* Address */
+.contacts-link{
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 24px;
+ color: #434455;
+}
+.contacts-link:hover,
+ .contacts-link:focus {
+
+ }
+/* Main content */
+.title {
+   color: #fff;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.button{
+        color: #fff;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+}
+.button .link:hover,
+.button .link:focus {
+
+}
+
+.competence-title{
+color: #2e2f42;
+font-weight: 500;
+font-size: 20px;
+line-height: 120%;
+letter-spacing: 0.02em;
+}
+
+.competence-text{
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+/* Our team */
+.our-team-title{
+    color: #2e2f42 ;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.our-teams-member{
+color: #2e2f42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+ .our-teams-member-position{
+    color: #434455;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+/* Our portfolio */
+.our-portfolio-title{
+    color: #2e2f42;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.our-portfolio-project{
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.our-portfolio-app{
+   color: #434455;
+   font-size: 16px;
+   
+}
+
+/* Footer */
+.web-studio-logo {
+    color: #4d5ae5;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    line-height: 21px;
+}
+
+ .logo-studio {
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #2e2f42;
+}
+
+.text-business{
+    color: #f4f4fd;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
