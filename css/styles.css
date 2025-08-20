@@ -15,6 +15,9 @@
     font-weight: 700px;
     font-size: 18px;
     text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-family: "Raleway", sans-serif
+    
  }
 
 .page-nav .studio {
@@ -27,7 +30,13 @@
     font-size: 16px;
     line-height: 24px;
 }
+.page-nav .link:hover {
+    color: #404bbf
+}
 
+.page-nav .link.:focus {
+    color: #404bbf
+}
 /* Address */
 
 .address {
@@ -39,10 +48,14 @@
     font-size: 16px;
     line-height: 150%;
     color: #434455;
+    letter-spacing: 0.02em
 }
 
-.contacts-link:hover, :focus{
-
+.contacts-link:hover {
+color: #404bbf
+}
+.contacts-link:focus {
+color: #404bbf
 }
 .contacts-link {
     font-weight: 400;
@@ -56,26 +69,34 @@
 .contacts-link:focus {}
 
 /* Main content */
+.profi {
+    background-color: #2e2f42;
+}
 .title {
     color: #fff;
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
 }
 
 .button {
     color: #fff;
+    background-color: #4D5AE5
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.04em;
     cursor: pointer;
+    font-family: "Roboto", sans-serif
 }
 
-.button .link:hover,
+.button .link:hover{
+    background-color: #404BBF
+}
 .button .link:focus {
+    background-color: #404BBF
 }
 
 /* Section */
@@ -87,7 +108,7 @@
     color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
-    line-height: 120%;
+    line-height: 1,2;
     letter-spacing: 0.02em;
     font-size: 20;
     line-height: 1.07
