@@ -1,7 +1,6 @@
 .body {
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", "Raleway";
     color: #2e2f42; 
-    color:#434455 ;
     background: #fff;
     
     
@@ -11,7 +10,6 @@
  }
  /* Logo*/
 .page-nav .web-studio-logo {
-    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     text-transform: uppercase;
@@ -19,26 +17,24 @@
 }
 
 .page-nav .studio{
-        font-family: "Raleway", sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        text-transform: uppercase;
-        color: #2e2f42;
-        }
+    color: #2e2f42;
+ }
   .page-nav .link{
-    font-family: "Roboto", sans-serif;
+    color: #2e2f42;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
   }
-
 /* Address */
+    
+.address {
+    font-style: normal;
+}
+
 .contacts-link{
  font-weight: 400;
  font-size: 16px;
- line-height: 24px;
+ line-height: 150%;
  color: #434455;
 }
 .contacts-link:hover,
@@ -67,13 +63,17 @@
 .button .link:focus {
 
 }
+/* Section */
+.section {
+background-color: #2e2f42;
+}
 
 .competence-title{
 color: #2e2f42;
 font-weight: 500;
-font-size: 20px;
-line-height: 120%;
-letter-spacing: 0.02em;
+font-size: 20;
+line-height: 1.07
+
 }
 
 .competence-text{
