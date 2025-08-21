@@ -1,12 +1,7 @@
 body {
-    font-family: "Roboto", sans-serif
-    font-family: "Raleway";
-    color: #434455;
+    
     background-color: #FFFFFF;
-}
-
-.wrapper {
-    background-color: ;
+    font-family: "Roboto", sans-serif
 }
 
 /* Logo*/
@@ -29,12 +24,13 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+    letter-spacing: 0,02em;
 }
 .page-nav .link:hover {
     color: #404bbf
 }
 
-.page-nav .link.:focus {
+.page-nav .link:focus {
     color: #404bbf
 }
 /* Address */
@@ -60,7 +56,6 @@ color: #404bbf
 .contacts-link {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
     line-height: 150%;
     color: #434455;
 }
@@ -80,10 +75,11 @@ color: #404bbf
     text-align: center;
     letter-spacing: 0.02em;
 }
-
+.button{
+    background-color: #4D5AE5
+}
 .button {
     color: #fff;
-    background-color: #4D5AE5
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -108,21 +104,23 @@ color: #404bbf
     color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
-    line-height: 1,2;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     font-size: 20;
-    line-height: 1.07
-}
+   }
 
 .competence-text {
     color: #434455;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
 /* Our team */
+.our-team{
+    background-color: #F4F4FD
+}
 .our-team-title {
     color: #2e2f42;
     font-weight: 700;
@@ -144,6 +142,7 @@ color: #404bbf
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
+    background-color: #FFFFFF
 }
 
 .our-teams-member-position {
@@ -194,7 +193,8 @@ color: #2e2f42;
     text-transform: uppercase;
     letter-spacing: 0.03em;
     line-height: 1.17;
-    font-family: "Raleway"
+    font-family: "Raleway", sans-serif
+    
 }
 
 .logo-studio {
@@ -202,8 +202,10 @@ color: #2e2f42;
     font-size: 18px;
     text-transform: uppercase;
     color: #f4f4fd
+    }
+.studio{
+    color: #f4f4fd
 }
-
 .text-business {
     color: #f4f4fd;
     font-weight: 400;
