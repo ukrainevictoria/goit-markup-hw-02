@@ -25,7 +25,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0,02em;
+    letter-spacing: 0.02em;
 }
 .page-nav .link:hover {
     color: #404bbf
@@ -96,9 +96,7 @@ color: #404bbf
 .our-professionalism{
     background-color: #2e2f42;
 }
-.our-competence {
-    background-color: #2e2f42;
-}
+
 
 .competence-title {
     color: #2e2f42;
@@ -131,7 +129,7 @@ color: #404bbf
     text-transform: capitalize
 }
 
-.our-teams-list {
+.our-teams-item {
     background-color: #FFFFFF
 }
 
