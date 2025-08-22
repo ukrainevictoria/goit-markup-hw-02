@@ -1,5 +1,5 @@
 body {
-    
+    color: #434455;
     background-color: #FFFFFF;
     font-family: "Roboto", sans-serif
 }
@@ -10,13 +10,14 @@ body {
     font-weight: 700px;
     font-size: 18px;
     text-transform: uppercase;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.03em
     font-family: "Raleway", sans-serif
     
  }
 
 .page-nav .studio {
     color: #2e2f42;
+    letter-spacing: 0,02em;
 }
 
 .page-nav .link {
@@ -92,7 +93,10 @@ color: #404bbf
 
 
 /* Section */
-.section {
+.our-professionalism{
+    background-color: #2e2f42;
+}
+.our-competence {
     background-color: #2e2f42;
 }
 
@@ -150,6 +154,9 @@ color: #404bbf
 }
 
 /* Our portfolio */
+.our-portfolio{
+    background-color: #FFFFFF
+}
 .our-portfolio-title {
 color: #2e2f42;
     font-weight: 700;
