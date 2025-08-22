@@ -17,7 +17,7 @@ body {
 
 .page-nav .studio {
     color: #2e2f42;
-    letter-spacing: 0,02em;
+    
 }
 
 .page-nav .link {
@@ -131,7 +131,7 @@ color: #404bbf
     text-transform: capitalize
 }
 
-.our-teams-item {
+.our-teams-list {
     background-color: #FFFFFF
 }
 
